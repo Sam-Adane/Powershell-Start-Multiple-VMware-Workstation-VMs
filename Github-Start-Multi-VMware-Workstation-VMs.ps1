@@ -1,4 +1,4 @@
-﻿Function Start-VMsAuto {
+﻿Function Start-MultiVMs {
 
 $VMRun = "C:\Program Files (x86)\VMware\VMware Workstation\vmrun.exe"
 
@@ -13,4 +13,4 @@ $Auto_Start_VMs | ForEach-Object {& $VMRun -T ws start $($_)}
 
 }
 
-Start-VMsAuto
+Start-MultiVMs
