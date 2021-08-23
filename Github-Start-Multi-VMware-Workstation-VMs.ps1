@@ -2,7 +2,7 @@
 
 $VMRun = "C:\Program Files (x86)\VMware\VMware Workstation\vmrun.exe"
 
-#Input VMs to autostart on a new line separated by comma;
+#Input full path to VMs to autostart on a new line separated by comma;
 $Auto_Start_VMs = @(
 "D:\Home-Lab\VMware\DC01.vmx",
 "D:\Home-Lab\VMware\SCCM.vmx",
